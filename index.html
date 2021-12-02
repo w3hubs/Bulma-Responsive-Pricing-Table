@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bulma Responsive Pricing Table</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Duru+Sans&display=swap');
+      *{
+      font-family: 'Duru Sans', sans-serif;
+      }
+      li,h3{
+      text-align: center;
+      }
+      li{
+      padding: 10px 0;
+      }
+      .column:nth-child(2) .button{
+      border: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container p-5">
+      <h1 class="is-size-3 has-text-centered p-3 pb-4">Bulma Responsive Pricing Table</h1>
+      <div class="columns is-tablets  is-justify-content-center is-align-content-center">
+        <div class="column is-one-third has-background-success-light m-3">
+          <h3 class="is-capitalized is-size-1-mobile is-size-1-tablet">Plan 1</h3>
+          <ul>
+            <li><b>5</b> Domain</li>
+            <li><b>10</b> SubDomain</li>
+            <li><b>10GB</b> SDD space</li>
+            <li>24/7 support</li>
+            <li>One-click Set-up</li>
+          </ul>
+          <button class="button is-primary has-text-white is-large is-fullwidth">Buy Now</button>
+        </div>
+        <div class="column is-one-third has-background-primary m-3 has-text-white">
+          <h3 class="is-capitalized is-size-1-mobile is-size-1-tablet">Plan 2</h3>
+          <ul>
+            <li><b>10</b> Domain</li>
+            <li><b>20</b> SubDomain</li>
+            <li><b>30GB</b> SDD space</li>
+            <li>24/7 support</li>
+            <li>One-click Set-up</li>
+          </ul>
+          <button class="button has-background-primary-dark	has-text-white	is-large is-fullwidth">Buy Now</button>
+        </div>
+        <div class="column is-one-third has-background-success-light m-3">
+          <h3 class="is-capitalized is-size-1-mobile is-size-1-tablet">Plan 3</h3>
+          <ul>
+            <li><b>30</b> Domain</li>
+            <li><b>Unlimited</b> SubDomain</li>
+            <li><b>50GB</b> SDD space</li>
+            <li>24/7 support</li>
+            <li>One-click Set-up</li>
+          </ul>
+          <button class="button is-primary is-large is-fullwidth">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
